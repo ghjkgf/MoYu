@@ -7,9 +7,9 @@ import java.sql.Statement;
  
  
 public class JDBCConnection {
-	public static void jdbcNeo4j() throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
-		Class.forName("org.neo4j.driver.Driver").newInstance();
-		String url ="jdbc:neo4j:http://localhost:7474";
+	public static void jdbcNeo4j() throws ClassNotFoundException, SQLException{
+		Class.forName("org.neo4j.driver.Driver");
+		String url ="jdbc:neo4j:http://localhost:7890";
 		Connection conn = DriverManager.getConnection(url, "neo4j", "neo4j");
 		
 		Statement stmt = conn.createStatement();
@@ -26,7 +26,7 @@ public class JDBCConnection {
 			System.out.println(rs.getMetaData().getColumnName(0));
 		}
 	}
-	public static void main(String[] args) throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		jdbcNeo4j();
 	}
 }
