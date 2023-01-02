@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/assertLearn/pom.xml" />
         <option value="$PROJECT_DIR$/neo4j/pom.xml" />
+        <option value="$PROJECT_DIR$/neo4j/neo4jBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/neo4j/neo4jboot2_3_5/pom.xml" />
       </list>
     </option>
   </component>
