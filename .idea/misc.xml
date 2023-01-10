@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/neo4j/pom.xml" />
         <option value="$PROJECT_DIR$/neo4j/neo4jBoot/pom.xml" />
         <option value="$PROJECT_DIR$/neo4j/neo4jboot2_3_5/pom.xml" />
+        <option value="$PROJECT_DIR$/../redisL/pom.xml" />
+        <option value="$USER_HOME$/MoYu/IdeaProjects/MoYu/again/pom.xml" />
       </list>
     </option>
   </component>
